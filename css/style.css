@@ -1,3 +1,20 @@
 @media screen and ( max-width: 600px ) {
     img.logo { width: 180px; }
     }
+
+.tstyle h4{
+  font-family: 'Sacramento', cursive;
+}
+.tstyle h5{
+  font-family: 'Indie Flower', cursive;
+}
+.icon-block {
+    padding: 0 15px;
+  }
+  .icon-block .material-icons {
+    font-size: inherit;
+  }
+
+  hr{
+    border-top: 1px dashed yellow;
+  }
