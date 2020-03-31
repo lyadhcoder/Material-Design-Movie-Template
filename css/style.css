@@ -2,6 +2,10 @@
     img.logo { width: 180px; }
     }
 
+html {
+  scroll-behavior: smooth;
+}
+    
 .tstyle h4{
   font-family: 'Sacramento', cursive;
 }
@@ -20,7 +24,4 @@
   }
   .btn_round{
     border-radius: 20px;
-  }
-  .pad{
-    padding-bottom: 20px;
   }
