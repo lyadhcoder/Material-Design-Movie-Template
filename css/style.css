@@ -18,3 +18,9 @@
   hr{
     border-top: 1px dashed yellow;
   }
+  .btn_round{
+    border-radius: 20px;
+  }
+  .pad{
+    padding-bottom: 20px;
+  }
