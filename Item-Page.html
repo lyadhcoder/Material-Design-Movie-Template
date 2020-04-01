@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact</title>
+    <title>Latest Movies | Hindi, Bengali, English</title>
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!--Import style.css-->
@@ -27,7 +27,7 @@
       <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
       <ul class="right hide-on-med-and-down">
         <li class="active"><a href="/">Home</a></li>
-        <li><a href="/#latest">Latest Movies</a></li>
+        <li><a href="#latest">Latest Movies</a></li>
         <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Movies<i class="material-icons right">arrow_drop_down</i></a></li>
           <!-- Dropdown Structure -->
           <ul id='dropdown1' class='dropdown-content'>
@@ -57,78 +57,40 @@
 
 <!--Main-->
 
-<div class="container tstyle">
-  <h2 class="center white-text">HAVE SOME QUESTIONS?</h>
+<div class="container">
+  <h4 class="white-text">Movie Title | Year | Catagory | 12+
+  </h4>
+  <div class="video-container">
+    <iframe width="100%" height="Auto" src="//www.youtube.com/embed/Q8TXgCzxEnw?rel=0" frameborder="0" allowfullscreen></iframe>
+  </div>
+
+  <div class="row white-text">
+    <h5>Movie Name <span>2020</span></h5>
+    <p>Comedy <i class="tiny material-icons">fiber_manual_record</i> Hindi</p>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laudantium, dicta beatae magni ullam nemo sunt eligendi, quae optio assumenda molestias sequi libero architecto inventore, ex eaque maxime reprehenderit sapiente.</h5>
+  </div>
 </div>
 
-<div class="container">
-  <div class="section">
-    <!--   Icon Section   -->
-    <div class="row">
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center yellow-text accent-4"><i class="material-icons">email</i></h2>
-          <h5 class="center white-text">example@mail.com</h5>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center yellow-text accent-4"><i class="material-icons">home</i></h2>
-          <h5 class="center white-text">1234 Example Street <br>
-            India, Example 0987</h5>
-        </div>
-      </div>
-
-      <div class="col s12 m4">
-        <div class="icon-block">
-          <h2 class="center yellow-text accent-4"><i class="material-icons">call</i></h2>
-          <h5 class="center white-text">+1 123 456 789</h5>
-        </div>
+    <!-- Subscribe Section -->
+    <div class="container">
+      <div class="row tstyle">
+        <h3 class="center white-text">Subscribe for Latest Update</h3>
+        <form action="#" class="col s12">
+          <div class="row">
+            <div class="input-field col s8 grey darken-2 mail_sub">
+              <i class="material-icons prefix yellow-text">email</i>
+              <input id="email" type="email" class="validate white-text">
+              <label for="email">Your Email</label>
+              <span class="helper-text" data-error="wrong email" data-success="valid email"></span>
+            </div>
+          <div class="col s4" style="padding-top: 28px;">
+            <button class="waves-effect waves-red btn yellow black-text btn_round"><i class="material-icons right">done</i>Submit</button>
+          </div>
+          </div>
+        </form>
       </div>
     </div>
-  </div>
-</div>
-
-<div class="container">
-<div class="row">
-    <h5 class="yellow-text con">We’d love to hear from you.<i class="material-icons">favorite_border</i> Drop Us a line.</h5>
-    <form action="#" class="col s8">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate white-text">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate white-text">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="email" type="email" class="validate white-text">
-          <label for="email">Email</label>
-          <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
-        </div>
-        <div class="input-field col s6">
-            <input id="subject" type="text" class="validate white-text">
-            <label for="subject">Subject</label>
-          </div>
-      </div>
-      <div class="row">        
-            <div class="input-field col s12">
-              <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
-              <label for="textarea1">Textarea</label>
-            </div>          
-      </div>
-      <button class="waves-effect waves-orange btn-small yellow black-text"><i class="material-icons left">done</i>Submit</button>
-    </form>
-<div class="col s4">
-    <img src="./img/it_support.svg" alt="">
-</div>
-  </div>
-</div>
-
+    <!-- Subscribe Section End -->
 <!--Main End-->
 
 <!-- Footer -->
