@@ -5,11 +5,14 @@
 html {
   scroll-behavior: smooth;
 }
-    
+
 .tstyle h4{
   font-family: 'Sacramento', cursive;
 }
 .tstyle h5{
+  font-family: 'Indie Flower', cursive;
+}
+.tstyle h3{
   font-family: 'Indie Flower', cursive;
 }
 .icon-block {
@@ -24,4 +27,10 @@ html {
   }
   .btn_round{
     border-radius: 20px;
+  }
+  .input-field label {
+    color: #fff;
+  }
+  .mail_sub{
+    border-radius: 30px;
   }

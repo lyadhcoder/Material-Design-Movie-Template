@@ -19,7 +19,7 @@
     <!--Import jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<body class="grey darken-4">
+ <body class="grey darken-4">
   <!-- Navbar -->
   <nav class=" teal darken-1">
     <div class="nav-wrapper container">
@@ -56,12 +56,15 @@
 <!-- Navbar End -->
 
 <!--Main-->
+
+<!-- carousel slider -->
 <div class="carousel carousel-slider">
   <a class="carousel-item" href="#one!"><img src="./img/1.jpg"></a>
   <a class="carousel-item" href="#two!"><img src="./img/2.jpg"></a>
   <a class="carousel-item" href="#three!"><img src="./img/1.jpg"></a>
   <a class="carousel-item" href="#four!"><img src="./img/2.jpg"></a>
 </div>
+<!-- carousel slider end -->
 
 <div class="container">
   <div class="section">
@@ -88,9 +91,9 @@
         </div>
       </div>
     </div>
-
   </div>
 </div>
+
 <!-- Recently Added -->
 <div class="tstyle">
 <h4 class="center-align white-text" id="latest">Recently Added<i class="material-icons yellow-text accent-4">arrow_downward</i></h4>
@@ -240,6 +243,7 @@
   </div>
 </div>
 </div>
+<!-- Recently Added End -->
 
 <!-- Most Popular -->
 <div class="tstyle">
@@ -390,7 +394,9 @@
     </div>
   </div>
   </div>
- 
+<!-- Most Popular End -->
+
+  <!-- parallax section -->
   <div class="center">
     <i class="material-icons large orange-text darken-1">live_tv</i>
     <h3 class="center teal-text">World Tv Premiere</h3>
@@ -407,6 +413,30 @@
       <a class="btn-large btn_round waves-effect waves-light orange darken-1" href="#!"><i class="material-icons right">play_circle_filled</i>Watch Now</a>
     </div>
   </div>
+  <!-- parallax section end -->
+
+    <!-- Subscribe Section -->
+    <div class="container">
+      <div class="row tstyle">
+        <h3 class="center white-text">Subscribe for Latest Update</h3>
+        <form action="" method="POST" class="col s12">
+          <div class="row">
+            <div class="input-field col s8 grey darken-2 mail_sub">
+              <i class="material-icons prefix yellow-text">email</i>
+              <input id="email" type="email" class="validate white-text">
+              <label for="email">Your Email</label>
+              <span class="helper-text" data-error="wrong email" data-success="valid email"></span>
+            </div>
+          <div class="col s4" style="padding-top: 28px;padding-left: 50px;">
+            <a class="waves-effect waves-red btn yellow black-text btn_round"><i class="material-icons right">done</i>Submit</a>
+          </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- Subscribe Section End -->
+<!--Main End-->
+
 <!-- Footer -->
   <footer class="page-footer purple darken-2">
     <div class="container">
@@ -463,25 +493,7 @@
 <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
 </script>
 <!-- Carousel Setup -->
-<script>
-  $('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav: false,
-  dots: false,
-  responsive:{
-      0:{
-          items:3
-      },
-      600:{
-          items:6
-      },
-      1000:{
-          items:7
-      }
-  }
-})
-</script>
+<script src="./owl/setup.js" type="text/javascript"></script>
 
 </body>
 </html>

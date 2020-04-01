@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
     <!--Import carousel-->
     <link type="text/css" rel="stylesheet" href="owl/owl.carousel.css">
+    <link type="text/css" rel="stylesheet" href="owl/owl.theme.default.min.css">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
@@ -18,7 +19,7 @@
     <!--Import jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 </head>
-<body class="grey darken-4">
+ <body class="grey darken-4">
   <!-- Navbar -->
   <nav class=" teal darken-1">
     <div class="nav-wrapper container">
@@ -31,7 +32,7 @@
           <!-- Dropdown Structure -->
           <ul id='dropdown1' class='dropdown-content'>
             <li><a href="#!">Hindi</a></li>
-            <li><a href="#!">Bengali</a></li>
+            <li><a href="Bengali">Bengali</a></li>
             <li><a href="#!">English</a></li>
           </ul>
         <li><a href="https://forms.gle/R2qitmXVKLQpWkmj9">Contact</a></li>
@@ -55,12 +56,15 @@
 <!-- Navbar End -->
 
 <!--Main-->
+
+<!-- carousel slider -->
 <div class="carousel carousel-slider">
   <a class="carousel-item" href="#one!"><img src="./img/1.jpg"></a>
   <a class="carousel-item" href="#two!"><img src="./img/2.jpg"></a>
   <a class="carousel-item" href="#three!"><img src="./img/1.jpg"></a>
   <a class="carousel-item" href="#four!"><img src="./img/2.jpg"></a>
 </div>
+<!-- carousel slider end -->
 
 <!-- Recently Added -->
 <div class="tstyle">
@@ -211,6 +215,7 @@
   </div>
 </div>
 </div>
+<!-- Recently Added End -->
 
 <!-- Most Popular -->
 <div class="tstyle">
@@ -361,7 +366,9 @@
     </div>
   </div>
   </div>
- 
+<!-- Most Popular End -->
+
+  <!-- parallax section -->
   <div class="center">
     <i class="material-icons large orange-text darken-1">live_tv</i>
     <h3 class="center teal-text">World Tv Premiere</h3>
@@ -378,7 +385,8 @@
       <a class="btn-large btn_round waves-effect waves-light orange darken-1" href="#!"><i class="material-icons right">play_circle_filled</i>Watch Now</a>
     </div>
   </div>
-  
+  <!-- parallax section end -->
+
   <div class="container">
     <div class="section">
       <!--   Icon Section   -->
@@ -403,10 +411,32 @@
             <h5 class="center white-text">Easy to Play</h5>
           </div>
         </div>
-      </div>
-  
+      </div>  
     </div>
   </div>
+  
+  <!-- Subscribe Section -->
+  <div class="container">
+    <div class="row tstyle">
+      <h3 class="center white-text">Subscribe for Latest Update</h3>
+      <form action="" method="POST" class="col s12">
+        <div class="row">
+          <div class="input-field col s8 grey darken-2 mail_sub">
+            <i class="material-icons prefix yellow-text">email</i>
+            <input id="email" type="email" class="validate white-text">
+            <label for="email">Your Email</label>
+            <span class="helper-text" data-error="wrong email" data-success="valid email"></span>
+          </div>
+        <div class="col s4" style="padding-top: 28px;padding-left: 50px;">
+          <a class="waves-effect waves-red btn yellow black-text btn_round"><i class="material-icons right">done</i>Submit</a>
+        </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <!-- Subscribe Section End -->
+<!--Main End-->
+
 <!-- Footer -->
   <footer class="page-footer purple darken-2">
     <div class="container">
@@ -419,7 +449,7 @@
           <h5 class="white-text">Movies</h5>
           <ul>
             <li><a class="grey-text text-lighten-3" href="#!">Hindi</a></li>
-            <li><a class="grey-text text-lighten-3" href="#!">Bengali</a></li>
+            <li><a class="grey-text text-lighten-3" href="Bengali">Bengali</a></li>
             <li><a class="grey-text text-lighten-3" href="#!">English</a></li>
               <!-- Modal Trigger -->
         <a class="waves-effect waves-light btn modal-trigger cyan darken-3 pulse" href="#request-movie"><i class="material-icons right">lightbulb_outline</i>Submit Your Movie Request</a>
@@ -463,24 +493,7 @@
 <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
 </script>
 <!-- Carousel Setup -->
-<script>
-  $('.owl-carousel').owlCarousel({
-  loop:true,
-  margin:10,
-  nav: false,
-  responsive:{
-      0:{
-          items:3
-      },
-      600:{
-          items:6
-      },
-      1000:{
-          items:7
-      }
-  }
-})
-</script>
+<script src="./owl/setup.js" type="text/javascript"></script>
 
 </body>
 </html>
