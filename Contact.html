@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <!--Import style.css-->
+    <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <!--Import carousel-->
+    <link type="text/css" rel="stylesheet" href="owl/owl.carousel.css">
+    <link type="text/css" rel="stylesheet" href="owl/owl.theme.default.min.css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+    <!--Import jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+ <body class="grey darken-4">
+  <!-- Navbar -->
+  <nav class=" teal darken-1">
+    <div class="nav-wrapper container">
+      <a href="#!" class="brand-logo center"><img class="logo" src="./img/logo.png" alt="Logo"></a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li class="active"><a href="/">Home</a></li>
+        <li><a href="#latest">Latest Movies</a></li>
+        <li><a class="dropdown-trigger" href="#" data-target="dropdown1">Movies<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id='dropdown1' class='dropdown-content'>
+            <li><a href="#!">Hindi</a></li>
+            <li><a href="Bengali">Bengali</a></li>
+            <li><a href="#!">English</a></li>
+          </ul>
+        <li><a href="Contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li class="active"><a href="/">Home</a></li>
+        <li><a href="#">Latest Movies</a></li>
+        <li><a class="dropdown-trigger2" href="#" data-target="dropdown2">Movies<i class="material-icons right">arrow_drop_down</i></a></li>
+          <!-- Dropdown Structure -->
+          <ul id='dropdown2' class='dropdown-content'>
+            <li><a href="#!">Hindi</a></li>
+            <li><a href="#!">Bengali</a></li>
+            <li><a href="#!">English</a></li>
+          </ul>
+        <li><a href="Contact">Contact</a></li>
+        <li><a class="waves-effect waves-light btn modal-trigger cyan darken-3" href="#request-movie"><i class="material-icons right">lightbulb_outline</i><span style="font-size: 12px;">Request Your Movie</span></a></li>
+
+  </ul>
+<!-- Navbar End -->
+
+<!--Main-->
+
+<div class="container tstyle">
+  <h2 class="center white-text">HAVE SOME QUESTIONS?</h>
+</div>
+
+<div class="container">
+  <div class="section">
+    <!--   Icon Section   -->
+    <div class="row">
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center yellow-text accent-4"><i class="material-icons">email</i></h2>
+          <h5 class="center white-text">example@mail.com</h5>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center yellow-text accent-4"><i class="material-icons">home</i></h2>
+          <h5 class="center white-text">1234 Example Street <br>
+            India, Example 0987</h5>
+        </div>
+      </div>
+
+      <div class="col s12 m4">
+        <div class="icon-block">
+          <h2 class="center yellow-text accent-4"><i class="material-icons">call</i></h2>
+          <h5 class="center white-text">+1 123 456 789</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+<div class="row">
+    <h5 class="yellow-text con">We’d love to hear from you.<i class="material-icons">favorite_border</i> Drop Us a line.</h5>
+    <form action="#" class="col s8">
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="first_name" type="text" class="validate white-text">
+          <label for="first_name">First Name</label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate white-text">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field col s6">
+          <input id="email" type="email" class="validate white-text">
+          <label for="email">Email</label>
+          <span class="helper-text" data-error="Invalid Email" data-success="Valid Email"></span>
+        </div>
+        <div class="input-field col s6">
+            <input id="subject" type="text" class="validate white-text">
+            <label for="subject">Subject</label>
+          </div>
+      </div>
+      <div class="row">        
+            <div class="input-field col s12">
+              <textarea id="textarea1" class="materialize-textarea white-text"></textarea>
+              <label for="textarea1">Textarea</label>
+            </div>          
+      </div>
+      <button class="waves-effect waves-orange btn-small yellow black-text"><i class="material-icons left">done</i>Submit</button>
+    </form>
+<div class="col s4">
+    <img src="./img/it_support.svg" alt="">
+</div>
+  </div>
+</div>
+
+<!--Main End-->
+
+<!-- Footer -->
+  <footer class="page-footer purple darken-2">
+    <div class="container">
+      <div class="row">
+        <div class="col l4 s12">
+          <h5 class="white-text"><img class="logo" src="./img/logo2.png" alt="Logo"></h5>
+          <p class="grey-text text-lighten-4">Ts Movie is a Web Platform for movies where you can stream movies online. You can also download your movies.</p>
+        </div>
+        <div class="col l4  s12">
+          <h5 class="white-text">Movies</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Hindi</a></li>
+            <li><a class="grey-text text-lighten-3" href="Bengali">Bengali</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">English</a></li>
+              <!-- Modal Trigger -->
+        <a class="waves-effect waves-light btn modal-trigger cyan darken-3 pulse" href="#request-movie"><i class="material-icons right">lightbulb_outline</i>Submit Your Movie Request</a>
+              <!-- Modal Structure -->
+              <div id="request-movie" class="modal">
+                <div class="modal-content">
+                  <div class="typeform-widget" data-url="https://thesourav.typeform.com/to/vSlV42" style="width: 100%; height: 450px;"></div>
+                </div>
+              </div>
+          </ul>
+        </div>
+        <div class="col l4  s12">
+          <h5 class="white-text">Others Links</h5>
+          <ul>
+            <li><a class="grey-text text-lighten-3" href="#!">Terms and Conditions</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Sitemap</a></li>
+            <li><a class="grey-text text-lighten-3" href="#!">Live Demo</a></li>
+          </ul>
+          <button onclick="window.location.href = 'https://www.buymeacoffee.com/lyadhcoder'" class="waves-effect waves-orange btn white black-text"><img src="https://cdn.buymeacoffee.com/buttons/bmc-new-btn-logo.svg" height="20px" width="20px" alt="Buy me a coffee">Buy Me A Coffee</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- Copyright Section -->
+    <div class="footer-copyright">
+      <div class="container">
+        Copyright 2020 © TheSourav
+      <p class="right">Designed and Fully Maintained By- <a class="grey-text text-lighten-4 right" href="https://thesourav.com"> Lyadhcoder</a></p>
+      </div>
+    </div>
+    <!-- Copyright Section End -->
+  </footer>
+<!-- Footer End -->
+
+<!--JavaScript at end of body for optimized loading-->
+<script type="text/javascript" src="js/materialize.min.js"></script>
+<script src="js/init.js"></script>
+<!--carousel-->
+<script src="owl/owl.carousel.js"></script>
+<!--Typeform-->
+<script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })()
+</script>
+<!-- Carousel Setup -->
+<script src="./owl/setup.js" type="text/javascript"></script>
+
+</body>
+</html>
