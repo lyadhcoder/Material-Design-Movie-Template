@@ -10,7 +10,6 @@ Materialize is compatible with:
 - Opera
 - Edge
 - IE 11+
-### [View Live Demo](https://movie.thesourav.com/)
 ## Screenshot
 <img src="https://github.com/lyadhcoder/Material-Design-Movie-Template/blob/master/Demo-1.jpg" width="400"> <img src="https://github.com/lyadhcoder/Material-Design-Movie-Template/blob/master/Demo-2.jpg" width="400">
 
